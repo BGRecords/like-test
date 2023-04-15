@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  color: #36454f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#card-container {
+  margin: 2rem;
+}
+
+.card {
+  font-size: smaller;
+  text-align: center;
+  border: grey solid 0.5px;
+  background-color: white;
+  width: 15rem;
+  height: 22rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+}
+
+.overflowText {
+  font-size: small;
+}
+
+.hidden {
+  display: none;
+}
+
+.thumbnail {
+  justify-self: center;
+  height: auto;
+  width: 15rem;
+}
+
+.like-btn {
+  width: 25%;
+  border-radius: 5%;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
